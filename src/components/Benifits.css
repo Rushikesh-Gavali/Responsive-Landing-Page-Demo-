@@ -1,0 +1,134 @@
+.yoga-benefits-section {
+  padding: 40px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.span {
+  color: #a100ff;
+}
+
+.benefits-heading {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.benefits-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  flex-wrap: nowrap;
+}
+
+.scrollable {
+  overflow-x: auto;
+  padding-bottom: 10px;
+  scrollbar-width: none;
+}
+.scrollable::-webkit-scrollbar {
+  display: none;
+}
+
+.benefit-image-card {
+  width: 20rem;
+  height: 30rem;
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.benefit-image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.benefits-info {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.demo-button {
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  background-color: #a100ff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+.benifits-cards-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  flex-wrap: nowrap;
+}
+
+.benefits-cards-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  .benefits-cards {
+    gap: 12px;
+    justify-content: flex-start;
+    padding-left: 10px;
+  }
+
+  .benefit-image-card {
+    width: 180px;
+    height: 270px;
+  }
+
+  .benefit-image {
+    height: auto;
+  }
+
+  .benefits-heading {
+    font-size: 1.8rem;
+  }
+
+  .benefits-title {
+    font-size: 1.2rem;
+  }
+
+  .benefits-cards-second {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    gap: 16px;
+    margin-bottom: 8px;
+    padding-bottom: 20px;
+  }
+
+  .benefits-cards-second .benefit-image-card {
+    width: 90%;
+    height: auto;
+  }
+
+  .benefits-cards-second .benefit-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 0;
+  }
+  
+
+}

@@ -1,0 +1,72 @@
+.testimonials-section {
+  background-color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.span {
+  color: #a100ff;
+}
+
+.testimonials-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.testimonials-subtitle {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.testimonials-carousel {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px 20px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  justify-content: center;
+}
+
+.testimonials-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.yoga-title {
+  font-size: 1.7rem;
+  color: #a100ff;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.yoga-heading {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .testimonials-heading,
+  .yoga-heading {
+    font-size: 2rem;
+  }
+
+  .testimonials-title,
+  .yoga-title {
+    font-size: 1.2rem;
+  }
+
+  .testimonials-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .testimonials-carousel {
+    gap: 12px;
+    padding-left: 10px;
+  }
+}
