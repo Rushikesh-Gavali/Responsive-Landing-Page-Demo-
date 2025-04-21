@@ -19,9 +19,7 @@ const OverlayLayout = () => {
       <div className="bottom-box">
         <div className="stats">
           <div>1000+ Happy Clients</div>
-          <div className="separator">|</div>
-          <div>26+ Countries</div>
-          <div className="separator">|</div>
+          <div className="middle">26+ Countries</div>
           <div>4.9/5 Google Rating</div>
         </div>
         <div className="additional-text">
